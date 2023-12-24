@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "2b46b75b9b11a260",
+    "type": "split",
+    "children": [
+      {
+        "id": "380629a3e0b6dcf1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46320777ac2bfcb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alfonso Obsidian Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "219dffb86f88e648",
+    "type": "split",
+    "children": [
+      {
+        "id": "0685c3114257df2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8941f8b609aa3f69",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "18f2da9c0992e0fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1676a54301327037",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1273918a2b01441a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b746386a8e01ab7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5eb77ff4a1620ff9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Alfonso Obsidian Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "271f9d42b61e43fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Alfonso Obsidian Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "aec4eae9e51b0b61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c69df72951b99b71",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Alfonso Obsidian Notes.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "46320777ac2bfcb0",
+  "lastOpenFiles": [
+    "Alfonso Obsidian Notes.md",
+    "qweqwe.md",
+    "TestFolder1/TestFolder2/DbFolder",
+    "TestFolder1/TestFolder2",
+    "TestFolder1",
+    "database1/wallets.json",
+    "database1/transactions.json",
+    "database1/events.json",
+    "database1/categories.json",
+    "database1/budgets.json",
+    "database1",
+    "alfonso/budgets.json"
+  ]
+}
