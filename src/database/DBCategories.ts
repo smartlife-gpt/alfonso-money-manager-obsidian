@@ -2,6 +2,7 @@ import { App } from "obsidian";
 import BaseDB from "./BaseDB";
 import { TransactionType } from "@/types/TransactionType";
 import type { CategoryType } from "@/types/CategoryType";
+import { SpecialCategoryType } from "@/enums/SpecialCategoryTypeEnum";
 
 export class DBCategories extends BaseDB {
   $id = "categories";
