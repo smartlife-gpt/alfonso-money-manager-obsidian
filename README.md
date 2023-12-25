@@ -32,9 +32,9 @@ We welcome contributions of all forms to make Alfonso Money Manager better for e
 
 ## Resources
 
-- **Website**: For more information and updates, visit [SmartLifeGPT](https://smartlifegpt.xyz/).
-- **Application**: Download and explore the Alfonso Money Manager from [here](https://smartlifegpt.xyz/alfonso-money-manger/).
-- **Obsidian Plugin**: Enhance your experience with the Alfonso Obsidian plugin available [here](https://smartlifegpt.xyz/alfonso-obsidian-plugin/).
+- **Website**: For more information and updates, visit [SmartLifeGPT](https://smartlifegpt.xyz/?utm_source=GitHub&utm_medium=desktop).
+- **Application**: Download and explore the Alfonso Money Manager from [here](https://smartlifegpt.xyz/alfonso-money-manger/?utm_source=PlayStore&utm_medium=app).
+- **Obsidian Plugin**: Enhance your experience with the Alfonso Obsidian plugin available [here](https://smartlifegpt.xyz/alfonso-obsidian-plugin/?utm_source=PlayStore&utm_medium=app).
 - **Kanban Board**: Track the progress and see what's coming next on our [Kanban board](https://github.com/users/smartlife-gpt/projects/1/views/1).
 
 ## Getting Started
