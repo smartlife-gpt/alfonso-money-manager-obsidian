@@ -2,7 +2,7 @@ import { Plugin, TFile, TFolder, type PluginManifest, App } from "obsidian";
 
 import { DBAlfonso } from "./database/DBAlfonso";
 import CodeBlockProcessor from "./plugin/CodeBlockProcessor";
-import { SampleSettingTab } from "./settings/SampleSettingTab";
+import { AlfonsoSettingTab } from "./settings/SampleSettingTab";
 import type { AlfonsoPluginSettings } from "./types/MyPluginSettings";
 import ExchangeRateManager from "./plugin/ExchangeRateService";
 import QueryBuilderModalCommand from "./plugin/commands/QueryBuilderModalCommand";
@@ -28,7 +28,7 @@ export default class AlfonsoPlugin extends Plugin {
 
   async onload() {
     await this.loadSettings();
-    this.addSettingTab(new SampleSettingTab(this.app, this));
+    this.addSettingTab(new AlfonsoSettingTab(this.app, this));
 
     QueryBuilderModalCommand.register(this);
 
@@ -50,25 +50,29 @@ export default class AlfonsoPlugin extends Plugin {
       return false;
     }
 
-    const children = (dbLocation as TFolder).children;
-    if (children == undefined || children.length == 0) {
-      return false;
-    }
-    const dbFiles = [
-      "wallets.json",
-      "budgets.json",
-      "categories.json",
-      "events.json",
-      "transactions.json",
-    ];
-
-    for (const dbFile of dbFiles) {
-      if (!children.some((child) => child.name == dbFile)) {
+    if (dbLocation instanceof TFolder) {
+      const children = dbLocation.children;
+      if (children == undefined || children.length == 0) {
         return false;
       }
+      const dbFiles = [
+        "wallets.json",
+        "budgets.json",
+        "categories.json",
+        "events.json",
+        "transactions.json",
+      ];
+
+      for (const dbFile of dbFiles) {
+        if (!children.some((child) => child.name == dbFile)) {
+          return false;
+        }
+      }
+
+      return true;
     }
 
-    return true;
+    return false;
   }
 
   async getDatabase(databaseLocation: string) {

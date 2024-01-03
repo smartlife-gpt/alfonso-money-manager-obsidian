@@ -2,7 +2,7 @@ import { App, Plugin, PluginSettingTab } from "obsidian";
 import { createApp, type App as VueApp } from "vue";
 import SettingsPage from "@/ui/settings.vue";
 
-export class SampleSettingTab extends PluginSettingTab {
+export class AlfonsoSettingTab extends PluginSettingTab {
   plugin: Plugin;
   _vueApp: VueApp | undefined;
 

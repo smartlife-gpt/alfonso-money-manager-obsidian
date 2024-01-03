@@ -22,7 +22,7 @@ export default class ExchangeRateManager {
       const currencyMap: Record<string, number> = { EUR: 1 }; // Initialize with EUR as the base currency
 
       for (const [key, value] of Object.entries(data)) {
-        currencyMap[key.toUpperCase()] = (value as any).rate;
+        currencyMap[key.toUpperCase()] = (value as { rate: number }).rate;
       }
 
       this.rates = currencyMap;
