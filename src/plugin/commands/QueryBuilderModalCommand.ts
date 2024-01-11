@@ -5,8 +5,8 @@ import { MarkdownView, type Editor, type EditorPosition, App } from "obsidian";
 export default class QueryBuilderModalCommand {
   static register(plugin: AlfonsoPlugin) {
     plugin.addCommand({
-      id: "xxx-id",
-      name: "Query Builder Window",
+      id: "query-builder-window-id",
+      name: "Query builder window",
       callback: () => {
         const myModal = new QueryBuilderModal(plugin.app, plugin);
         const editor =

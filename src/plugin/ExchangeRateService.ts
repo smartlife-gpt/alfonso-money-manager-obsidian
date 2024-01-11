@@ -1,5 +1,6 @@
 import { isToday } from "date-fns";
 import { round } from "mathjs";
+import { requestUrl } from "obsidian";
 
 export default class ExchangeRateManager {
   private static instance: ExchangeRateManager;
@@ -16,8 +17,10 @@ export default class ExchangeRateManager {
 
   private async fetchRates() {
     try {
-      const response = await fetch("https://www.floatrates.com/daily/eur.json");
-      const data = await response.json();
+      const response = await requestUrl(
+        "https://www.floatrates.com/daily/eur.json"
+      );
+      const data = response.json();
 
       const currencyMap: Record<string, number> = { EUR: 1 }; // Initialize with EUR as the base currency
 

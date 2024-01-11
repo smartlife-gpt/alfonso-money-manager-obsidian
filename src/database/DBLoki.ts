@@ -1,5 +1,5 @@
 import Loki from "lokijs";
-import { App } from "obsidian";
+import { App, TFile, TFolder } from "obsidian";
 
 function base64Decode(str: string) {
   return decodeURIComponent(
@@ -28,7 +28,8 @@ export default class DBLoki extends Loki {
 
   private async readDatabase(): Promise<string | undefined> {
     try {
-      if (!this.app.vault.getAbstractFileByPath(this.filename)) {
+      const databaseFile = this.app.vault.getAbstractFileByPath(this.filename);
+      if (!databaseFile || databaseFile instanceof TFolder) {
         return;
       }
 

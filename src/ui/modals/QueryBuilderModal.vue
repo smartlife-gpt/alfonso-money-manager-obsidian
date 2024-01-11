@@ -97,12 +97,12 @@
             </div>
             <div class="setting-item-control">
               <button class="mod-cta" @click="selectEvent">
-                Add Event
+                Add event
               </button>
             </div>
           </div>
 
-          <h4>Selected Events:</h4>
+          <h4>Selected events:</h4>
           <div class="setting-item" v-for="event in selectedEvents" :key="event.$loki">
             <div class="setting-item-control" style="width: 100%;">
               {{ event.name }}
@@ -125,7 +125,7 @@
             </div>
             <div class="setting-item-control">
               <button class="mod-cta" @click="selectCategory">
-                Add Category
+                Add category
               </button>
             </div>
           </div>
@@ -144,7 +144,7 @@
             </div>
           </div>
 
-          <h4>Selected Categories:</h4>
+          <h4>Selected categories:</h4>
           <div class="setting-item" v-for="category in selectedCategories" :key="category.$loki">
             <div class="setting-item-control" style="width: 100%;">
               {{ category.name }}
@@ -180,7 +180,7 @@
           <!-- Add TransactionGroupType select-->
           <div class="setting-item">
             <div class="setting-item-info">
-              <div class="setting-item-name">Groyp By</div>
+              <div class="setting-item-name">Groyp by</div>
               <div class="setting-item-description"></div>
             </div>
             <div class="setting-item-control">
@@ -195,7 +195,7 @@
 
           <div class="setting-item" v-if="selectedTransactionGroupType == 'date'">
             <div class="setting-item-info">
-              <div class="setting-item-name">Groyp By Period</div>
+              <div class="setting-item-name">Groyp by period</div>
               <div class="setting-item-description"></div>
             </div>
             <div class="setting-item-control">

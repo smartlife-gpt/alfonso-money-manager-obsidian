@@ -1,10 +1,10 @@
 {
   "id": "alfonso-money-manager",
   "name": "Alfonso Money Manager",
-  "version": "1.0.0",
-  "minAppVersion": "0.13.11",
+  "version": "0.0.1",
+  "minAppVersion": "0.12.0",
   "description": "A plugin for Alfonso Money Manager to view data in obsidian",
   "author": "SmartLife GPT Innovations",
-  "authorUrl": "https://github.com/smartlife-gpt",
+  "authorUrl": "https://github.com/SmartLif-GPT-Innovations",
   "isDesktopOnly": true
 }

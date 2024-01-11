@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46320777ac2bfcb0",
+            "id": "d4407784c58d1c53",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b29b38012c3475c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Alfonso Obsidian Notes.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46320777ac2bfcb0",
+  "active": "9b29b38012c3475c",
   "lastOpenFiles": [
-    "Alfonso Obsidian Notes.md",
     "qweqwe.md",
+    "Alfonso Obsidian Notes.md",
     "TestFolder1/TestFolder2/DbFolder",
     "TestFolder1/TestFolder2",
     "TestFolder1",

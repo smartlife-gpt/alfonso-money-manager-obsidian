@@ -3,7 +3,7 @@
   "name": "Alfonso Money Manager",
   "version": "1.0.0",
   "minAppVersion": "0.13.11",
-  "description": "A plugin for Alfonso Money Manager to view data in obsidian",
+  "description": "Alfonso Money Manager data viewer and finantial analitics tool",
   "author": "SmartLife GPT Innovations",
   "authorUrl": "https://github.com/smartlife-gpt",
   "isDesktopOnly": true

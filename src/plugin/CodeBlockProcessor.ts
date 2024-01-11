@@ -22,7 +22,7 @@ export default class CodeBlockProcessor {
     if (!queryResult) {
       rootEl.createEl("div", {
         cls: "no-results",
-        text: "No Results for Alfonso Query",
+        text: "No results for Alfonso query",
       });
       return;
     }
@@ -41,7 +41,7 @@ export default class CodeBlockProcessor {
     } else {
       rootEl.createEl("div", {
         cls: "no-results",
-        text: "No Results for Alfonso Query",
+        text: "No results for Alfonso query",
       });
     }
   }
@@ -145,14 +145,14 @@ export default class CodeBlockProcessor {
         });
 
         if (!this.plugin.settings.showQueryBuilderButton) {
-          buttonContainer.style.display = "none";
+          buttonContainer.hide();
         }
 
         this.plugin.onSettingsChanged((settings) => {
           if (settings.showQueryBuilderButton) {
-            buttonContainer.style.display = "block";
+            buttonContainer.show();
           } else {
-            buttonContainer.style.display = "none";
+            buttonContainer.hide();
           }
         });
 

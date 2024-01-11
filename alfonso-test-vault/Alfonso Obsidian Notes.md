@@ -16,7 +16,7 @@ wallet: Default
 and type: all
 group by: date monthly
 group by period: monthly
-chart type: pie
+chart type: bar
 ```
 
 

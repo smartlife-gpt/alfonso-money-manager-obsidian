@@ -44,6 +44,11 @@ We welcome contributions of all forms to make Alfonso Money Manager better for e
 3. **Explore AQL**: Experiment with the Alfonso Query Language to customize and visualize your financial data.
 4. **Visualize with ApexCharts**: Discover the power of data visualization through integrated charts and graphs.
 
+
+## External API Calls
+We are getting the currency exchange rates from [https://www.floatrates.com/daily/eur.json](https://www.floatrates.com/daily/eur.json). 
+The data is updated only once daily. We need this data in order to convert the currencies if needed.
+
 ## Support
 
 If you need help or have any questions, please refer to our support page or join our community forum where fellow users and developers can assist you.
