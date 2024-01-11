@@ -1,5 +1,5 @@
 import Loki from "lokijs";
-import { App, TFile, TFolder } from "obsidian";
+import { App, TFolder } from "obsidian";
 
 function base64Decode(str: string) {
   return decodeURIComponent(
